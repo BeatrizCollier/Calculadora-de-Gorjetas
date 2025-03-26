@@ -1,0 +1,23 @@
+.button {
+    background-color: #004A8D;  /* Azul clássico da paleta */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #003366;  /* Azul mais escuro no hover */
+}
+
+.button:active {
+    transform: scale(0.98);  /* Efeito de clique (leve redução de tamanho) */
+}
+
+.button:focus {
+    outline: 2px solid #F7941D;  /* Destaque laranja seguindo a paleta */
+}

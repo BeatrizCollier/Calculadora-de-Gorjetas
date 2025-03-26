@@ -1,0 +1,22 @@
+.container { 
+    margin: 5px 0;
+    margin: 2rem;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #004A8D;  /*fica azul quando clica */
+    outline: none;
+}
